@@ -10,4 +10,4 @@ app.get('/', (req, res) => {
   res.sendFile(`${publicPath}/index.html`)
 })
 
-app.listen(3000, () => console.log(`Server is up on port ${port}`))
+app.listen(port, () => console.log(`Server is up on port ${port}`))
