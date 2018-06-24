@@ -3,7 +3,7 @@ import Header from './Header'
 import Action from './Action'
 import AddOption from './AddOption'
 import Options from './Options'
-import OptionModal from './optionModal'
+import OptionModal from './OptionModal'
 
 class IndecisionApp extends React.Component {
   state = {
